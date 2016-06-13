@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-#Version:	0.01
-#Create:	2016-01-30
-#Authoruis:	kun/
+#Version:	0.02
+#Create:	2016-06-13
+#ym2011
 
 import array
 import sys
