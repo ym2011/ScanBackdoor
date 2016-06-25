@@ -11,7 +11,7 @@ import sys
 from util import traversal_dir
 from util import operation
 
-#木马特征
+#木马特征,目前只是从CMD的执行上分析.
 def start(param):
 	print "scaninng now....."
 	ls = operation.readRetList("dictionaries/rule.txt")#TODO 读取方式升级为用户自定义
@@ -19,7 +19,7 @@ def start(param):
 	
 	print "result.txt 结果已保存到result目录"	
 
-#查找木马
+#查看后门
 def cmp(dir, features):
 	suspicious = []
 	file_list = traversal_dir.traversal_dir(dir)
