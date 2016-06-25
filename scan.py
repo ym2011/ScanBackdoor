@@ -11,13 +11,13 @@ import core
 
 def Usage():
 	print 'scan usage:'
-	print '简单使用：scan.py filepath'
+	print '使用：scan.py filepath'
 	print '-h,--help: 获取帮助信息.'
 	print '-v, --version: 获取scan版本'
 	print '-p,--path: 指定将要扫描的路径'
 	print '-l,--low: 系统/数据库弱密码扫描'
 def Version():
-	print 'scan 0.01 BASE'
+	print 'scan 0.02 BASE'
 def OutPut(args):
 	print 'Hello, %s'%args
 def main(argv):
